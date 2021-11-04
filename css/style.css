@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+header{
+    position: relative;
+    height: 500px;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    color: white;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ----START NAVBAR---- */
+.nav-container{
+    position: relative;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    padding:20px 0;
+}
+
+.nav-container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav-container .logo{
+    width: 15%;
+}
+
+.logo img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.nav-container .login{
+    width: 15%;
+}
+
+nav{
+    width: 70%;
+}
+/* ----END NAVBAR---- */
+
+/* ----START JUMBOTRON---- */
+header .jumbotron{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+/* ----END JUMBOTRON---- */
+
+/* ----START BUTTON---- */
+
+/* ----END BUTTON---- */
+
+/* ----START DOWN ARROW---- */
+.dwn-arrow::before{
+    content: "\1F813\0020";
+}
+/* ----END DOWN ARROW---- */
