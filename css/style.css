@@ -30,6 +30,7 @@ header{
     background-position: 50% 50%;
     color: white;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 a{
@@ -50,7 +51,6 @@ p{
 
 /* ----START NAVBAR---- */
 .nav-container{
-    position: relative;
     text-align: center;
     height: 50px;
     line-height: 50px;
@@ -99,6 +99,56 @@ header .jumbotron{
 }
 /* ----END JUMBOTRON---- */
 
+/* ----START ROW AND CONTENT---- */
+.row{
+    margin-top: 150px;
+}
+
+.row::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.col-img{
+    width: 60%;
+}
+
+.col-text{
+    width: 40%;
+}
+
+.col-img img{
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+.text-right{
+    padding: 0 0 0 40px;
+}
+
+.text-left{
+    padding: 0 40px 0 0;
+}
+
+.centered{
+    text-align: center;
+}
+
+.centered h2{
+    margin-bottom: 40px;
+}
+/* ----END ROW AND CONTENT---- */
+/* ----START FOOTER---- */
+footer{
+    background-color: #22272a;
+}
+
+.col-social{
+    width: 20%;
+}
+/* ----END FOOTER---- */
 /* ----START BUTTON---- */
 .btn{
 	border-radius:50px;
@@ -114,9 +164,14 @@ header .jumbotron{
     background-color:white;
 }
 
+.lightblue-btn {
+	color:white;
+    background-color: #89a2e6;
+}
+
 .dark-btn {
 	color:white;
-    background-color:#333;
+    background-color:#22272a;
 }
 /* ----END BUTTON---- */
 
@@ -126,3 +181,4 @@ header .jumbotron{
     font-weight: bold;
 }
 /* ----END DOWN ARROW---- */
+
