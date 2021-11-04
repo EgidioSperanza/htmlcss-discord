@@ -6,6 +6,7 @@
 
 body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
 }
 
 .container{
@@ -34,6 +35,17 @@ header{
 a{
     text-decoration: none;
     color: white;
+}
+
+h1{
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 40px;
 }
 
 /* ----START NAVBAR---- */
@@ -88,11 +100,29 @@ header .jumbotron{
 /* ----END JUMBOTRON---- */
 
 /* ----START BUTTON---- */
+.btn{
+	border-radius:50px;
+	cursor:pointer;
+    padding:10px 20px;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 20px;
+}
 
+.light-btn {
+	color:black;
+    background-color:white;
+}
+
+.dark-btn {
+	color:white;
+    background-color:#333;
+}
 /* ----END BUTTON---- */
 
 /* ----START DOWN ARROW---- */
 .dwn-arrow::before{
     content: "\1F813\0020";
+    font-weight: bold;
 }
 /* ----END DOWN ARROW---- */
