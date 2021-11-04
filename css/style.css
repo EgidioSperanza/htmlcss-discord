@@ -22,6 +22,10 @@ body{
     float: right;
 }
 
+.fr{
+    float: right;
+}
+
 header{
     position: relative;
     height: 500px;
@@ -145,8 +149,55 @@ footer{
     background-color: #22272a;
 }
 
-.col-social{
-    width: 20%;
+.closure .row{
+    margin-top:50px;
+    padding-bottom: 50px;
+}
+
+.social{
+    width: 25%;
+}
+
+.sitemap{
+    width: 75%;
+}
+
+.social, .sitemap{
+    padding:50px 50px 0 0;
+}
+
+.col-map{
+    width: 25%;
+}
+
+.col-social h2, h4{
+    color: #89a2e6;
+    margin-bottom: 20px;
+}
+
+.language{
+    height: 16px;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+.language img{
+    height:100%;
+    padding-right: 10px;
+}
+
+.sitemap ul{
+    list-style: none;
+}
+
+.sitemap ul li{
+    margin-bottom: 20px;
+}
+
+.hr-footer{
+    padding-bottom: 50px;
+    border-bottom:1px solid #89a2e6;
 }
 /* ----END FOOTER---- */
 /* ----START BUTTON---- */
@@ -173,6 +224,12 @@ footer{
 	color:white;
     background-color:#22272a;
 }
+/* ----START SOCIAL BUTTON---- */
+.social-btn img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
 /* ----END BUTTON---- */
 
 /* ----START DOWN ARROW---- */
@@ -182,3 +239,11 @@ footer{
 }
 /* ----END DOWN ARROW---- */
 
+/* ----WAVE'S COLOR---- */
+.darke-ware{
+    fill:#f6f6f6;
+}
+
+.wave{
+    fill:white;
+}
